@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".MainActivity" tools:deviceIds="wear_square">
+
+    <TextView android:id="@+id/textDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/generate_qr_square"
+        android:onClick="onClickGenerateSquare"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressGenerate"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageQR"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

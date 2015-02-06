@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Wear QR Generator</string>
+    <string name="generate_qr_round">Touch to generate a QR code (round device)</string>
+    <string name="generate_qr_square">Touch to generate a QR code (square device)</string>
+    <string name="string_to_encode">https://androidbycode.wordpress.com/</string>
+    <string name="encode_error">Unable to generate QR Code</string>
+</resources>
