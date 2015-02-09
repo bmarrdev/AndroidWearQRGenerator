@@ -28,6 +28,7 @@
         android:id="@+id/imageQR"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:contentDescription="@string/qr_image_description"
         android:visibility="gone" />
 
 </RelativeLayout>

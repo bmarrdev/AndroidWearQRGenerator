@@ -5,4 +5,5 @@
     <string name="generate_qr_square">Touch to generate a QR code (square device)</string>
     <string name="string_to_encode">https://androidbycode.wordpress.com/</string>
     <string name="encode_error">Unable to generate QR Code</string>
+    <string name="qr_image_description">QR Code Image</string>
 </resources>

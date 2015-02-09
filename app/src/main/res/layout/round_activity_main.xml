@@ -35,6 +35,7 @@
             android:layout_height="fill_parent"
             android:id="@+id/imageQR"
             android:layout_gravity="center"
+            android:contentDescription="@string/qr_image_description"
             android:visibility="gone" />
     </FrameLayout>
 </android.support.wearable.view.BoxInsetLayout>
